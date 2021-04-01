@@ -1,0 +1,164 @@
+@media only screen and (min-width: 768px) {
+
+    .fa:hover,
+    .address-info a:hover,
+    .lang li a:hover,
+    .email a:hover,
+    .phone a:hover {
+        color: #e0c6ab;
+    }
+
+}
+
+a {
+    -webkit-transition: color ease .4s;
+    -moz-transition: color ease .4s;
+    -o-transition: color ease .4s;
+    transition: color ease .4s;
+}
+
+@media only screen and (max-width: 1200px) {
+    .logo-mobile {
+        display: block;
+        background: #060201;
+    }
+
+    .logo-mobile img {
+        width: 150px;
+        display: block;
+        margin: auto;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    nav {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .nav_phone, .nav_adress {
+        margin-right: 0;
+        margin-top: 20px;
+
+    }
+
+    .email,
+    .nav_social {
+        margin-bottom: 20px;
+    }
+
+    .info_block {
+        height: auto;
+        padding: 50px 20px;
+    }
+
+    .arm_info {
+        width: 100%;
+    }
+
+    .last_block_left {
+        width: 100%;
+        margin: 0;
+        padding: 50px 20px;
+    }
+
+    .map-block .right_block, .map-block .left_block {
+        width: 100%;
+    }
+
+    .map-block .right_block {
+        padding: 45px 20px;
+    }
+
+    .map-block .left_block img {
+        width: 100%;
+    }
+
+    .coffee_pic {
+        display: none;
+    }
+
+    .last_block {
+        padding: 50px 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .last_block_right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .last_block_right img {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .banner > .banner__title {
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .txt_inner {
+        padding: 0;
+    }
+
+    .container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer div {
+        margin: 0 0 20px;
+        padding: 0;
+        text-align: center;
+        max-width: 300px;
+    }
+
+    .footer_address {
+        border: none;
+    }
+
+    .copyright {
+        position: inherit;
+    }
+
+    .footer_address p {
+        display: inline-block;
+    }
+
+    .social {
+        margin-right: 0;
+        justify-content: center;
+    }
+
+    .footer .social li {
+        margin: 0 10px;
+    }
+
+    .lang {
+        margin-left: 15px;
+    }
+
+    .banner > .banner__title {
+        margin-top: 15px;
+    }
+
+    .top_block > .container .nav_phone,
+    .top_block > .container .phone,
+    .top_block > .container .nav_adress .email,
+    .nav_social .social {
+        display: none;
+    }
+
+}
